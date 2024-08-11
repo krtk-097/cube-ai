@@ -1,0 +1,31 @@
+.customerList {
+  cursor: pointer;
+  border: 1px solid #dedfe2;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.customerList.activeDiv {
+  background-color: #eeeeee;
+  color: red;
+}
+
+/* Style for WebKit-based browsers (like Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b0b0b0; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle when hovered */
+}
